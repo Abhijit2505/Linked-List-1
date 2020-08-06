@@ -111,7 +111,7 @@ int main()
     helper help_object;
     solution sol;
     Node* head = help_object.take_input();
-    Node* head2 = sol.deleteDuplicates(head);
+    Node* head2 = sol.reverse_linked_recursive(head);
     Node* head3 = sol.reverse_linked_iterative(head);
     help_object.print_ll(head2);
     help_object.print_ll(head3);
